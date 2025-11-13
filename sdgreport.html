@@ -1,0 +1,131 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SDG 17 — Adopt a Campaign | Partnership for the Goals</title>
+  <meta name="description" content="Adopt a SDG campaign to support Goal 17: Partnership for the Goals. Join partners, NGOs and citizens to build collaboration." />
+   <!-- ============================= -->
+   <!-- GROUP PROJECT: SDG 17 WEBSITE -->
+         <!-- ============================= -->
+           <style>
+    /* ============================= */
+    /* INTERNAL CSS SECTION */
+    /* This styling is included directly for simplicity */
+    /* ============================= */
+
+    :root{
+      --accent: #0077b6; /* blue accent */
+      --accent2: #ffd60a; /* yellow accent */
+      --dark: #03045e;
+      --muted: #5c677d;
+      --card-bg: #f9f9ff;
+      --maxw: 1000px;
+      font-family: 'Segoe UI', Roboto, sans-serif;
+    }
+
+    *{box-sizing:border-box}
+    body{margin:0;color:var(--dark);background:linear-gradient(180deg,#caf0f8 0%, #ade8f4 50%, #90e0ef 100%);}
+
+    header{
+      background: var(--accent2);
+      color: var(--dark);
+      border-bottom: 3px solid var(--accent);
+      position:sticky;top:0;z-index:40;
+    }
+
+    .container{max-width:var(--maxw);margin:0 auto;padding:1rem}
+
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700}
+    .brand .dot{width:12px;height:12px;border-radius:50%;background:var(--dark);display:inline-block}
+
+    nav ul{list-style:none;margin:0;padding:0;display:flex;gap:1rem;align-items:center}
+    nav a{text-decoration:none;color:var(--dark);font-weight:600}
+    nav a:hover{color:white}
+
+    .hero{
+      display:grid;grid-template-columns:1fr;gap:1.25rem;align-items:center;padding:2.25rem 0
+    }
+
+    .hero-content h1{font-size:clamp(1.4rem,2.6vw,2.25rem);margin:0 0 .5rem}
+    .hero-content p{margin:0 0 1rem;color:var(--muted);line-height:1.5}
+
+    .cta{display:flex;gap:.75rem;flex-wrap:wrap}
+    .btn{padding:0.7rem 1.1rem;border-radius:10px;border:0;font-weight:700;cursor:pointer}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-secondary{background:transparent;border:2px solid var(--accent);color:var(--accent)}
+
+    .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+    .card{background:var(--card-bg);padding:1rem;border-radius:12px;box-shadow:0 6px 18px rgba(3,4,94,0.1)}
+
+    section{padding:1.25rem 0}
+    h2{margin:0 0 .5rem;color:var(--dark)}
+    p.lead{color:var(--muted)}
+
+    footer{padding:1rem 0;border-top:3px solid var(--accent2);background:var(--accent);color:white;text-align:center}
+
+    @media (min-width:720px){
+      .hero{grid-template-columns:1fr 420px}
+    }
+  </style></head><body>
+  <!-- ============================= -->
+  <!-- HEADER SECTION -->
+  <!-- Contains navigation links to multiple pages -->
+  <!-- ============================= -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <span class="dot"></span>
+        <span>SDG17 — Adopt a Campaign</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="adopt.html">Adopt</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> 
+  <!-- ============================= --> 
+   <!-- MAIN CONTENT SECTION -->
+     <!-- ============================= --> <main class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Adopt a Campaign — Partnership for the Goals (SDG 17)</h1>
+        <p class="lead">Join the global movement of partnerships working towards sustainable development. Through collaboration, innovation, and shared vision, we can achieve the UN’s Sustainable Development Goals together.</p>
+        <div class="cta">
+          <button class="btn btn-primary">Adopt a Campaign</button>
+          <button class="btn btn-secondary">Learn More</button>
+        </div>
+      </div>
+      <aside>
+        <div class="card">
+          <h3>Quick Facts</h3>
+          <p style="color:var(--muted)">SDG 17 focuses on partnerships and cooperation — key to achieving all 16 other goals.</p>
+        </div>
+      </aside>
+    </section><section id="features">
+  <h2>Highlights</h2>
+  <div class="card-grid">
+    <div class="card"><strong>Global Collaboration</strong><p>Encouraging unity between governments, private sectors, and civil societies.</p></div>
+    <div class="card"><strong>Innovation Support</strong><p>Sharing technology, knowledge, and resources to boost global development.</p></div>
+    <div class="card"><strong>Financial Growth</strong><p>Mobilizing funding to achieve sustainable economic and environmental goals.</p></div>
+  </div>
+</section>
+
+  </main> 
+  <!-- ============================= --> 
+   <!-- FOOTER SECTION --> 
+    <!-- ============================= --> <footer>
+    <small>© <span id="year"></span> SDG17 — Adopt a Campaign | All rights reserved.</small>
+    <p>Project created by Group Members for College Submission</p>
+    <p>Designed for GitHub Upload and Collaboration</p>
+  </footer> <script>
+    // Auto-update the year dynamically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script></body>
+</html>
